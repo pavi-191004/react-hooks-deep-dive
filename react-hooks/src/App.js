@@ -7,8 +7,8 @@ import SeatBooking from './components/useState/SeatBooking';
 function App() {
   return (
     <div className="App">
-      {/* <SeatBooking/> */}
-      <ShoppingCart/>
+      <SeatBooking/>
+      {/* <ShoppingCart/> */}
       {/* <CheckNetwork/> */}
     </div>
   );
