@@ -1,0 +1,22 @@
+export const productsData = [
+  { id: 1, name: "Laptop", price: 60000, category: "Electronics" },
+  { id: 2, name: "Smartphone", price: 30000, category: "Electronics" },
+  { id: 3, name: "Headphones", price: 2000, category: "Electronics" },
+  { id: 4, name: "Smart Watch", price: 5000, category: "Electronics" },
+  { id: 5, name: "Keyboard", price: 1500, category: "Electronics" },
+  { id: 6, name: "Mouse", price: 800, category: "Electronics" },
+  { id: 7, name: "Gaming Chair", price: 12000, category: "Furniture" },
+  { id: 8, name: "Office Desk", price: 10000, category: "Furniture" },
+  { id: 9, name: "Backpack", price: 1200, category: "Accessories" },
+  { id: 10, name: "Water Bottle", price: 300, category: "Accessories" },
+  { id: 11, name: "T-Shirt", price: 700, category: "Clothing" },
+  { id: 12, name: "Jeans", price: 1500, category: "Clothing" },
+  { id: 13, name: "Shoes", price: 2500, category: "Footwear" },
+  { id: 14, name: "Sandals", price: 900, category: "Footwear" },
+  { id: 15, name: "Bluetooth Speaker", price: 3500, category: "Electronics" },
+  { id: 16, name: "Tablet", price: 25000, category: "Electronics" },
+  { id: 17, name: "Monitor", price: 15000, category: "Electronics" },
+  { id: 18, name: "Printer", price: 8000, category: "Electronics" },
+  { id: 19, name: "Notebook", price: 100, category: "Stationery" },
+  { id: 20, name: "Pen Pack", price: 50, category: "Stationery" }
+];

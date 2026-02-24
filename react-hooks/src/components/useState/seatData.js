@@ -1,7 +1,4 @@
-
-
 export const initialSeats = [
-  
   { id: "A1", selected: false, booked: false },
   { id: "A2", selected: false, booked: true },
   { id: "A3", selected: false, booked: false },
@@ -13,7 +10,6 @@ export const initialSeats = [
   { id: "A9", selected: false, booked: true },
   { id: "A10", selected: false, booked: false },
 
- 
   { id: "B1", selected: false, booked: false },
   { id: "B2", selected: false, booked: false },
   { id: "B3", selected: false, booked: true },
@@ -25,7 +21,6 @@ export const initialSeats = [
   { id: "B9", selected: false, booked: false },
   { id: "B10", selected: false, booked: false },
 
- 
   { id: "C1", selected: false, booked: false },
   { id: "C2", selected: false, booked: false },
   { id: "C3", selected: false, booked: false },
@@ -37,7 +32,6 @@ export const initialSeats = [
   { id: "C9", selected: false, booked: true },
   { id: "C10", selected: false, booked: false },
 
- 
   { id: "D1", selected: false, booked: false },
   { id: "D2", selected: false, booked: true },
   { id: "D3", selected: false, booked: false },

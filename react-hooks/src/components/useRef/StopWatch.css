@@ -1,0 +1,48 @@
+.stopwatch-card {
+  display: flex;
+  flex-direction: column;  
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  gap: 15px;
+}
+
+.timer {
+  width: 100%;
+  text-align: center;
+}
+
+.button-group {
+  display: flex;          
+  gap: 10px;  
+ 
+}
+ button:hover {
+ cursor: pointer;
+}
+
+.btn-1{
+    
+background-color:green;   
+ color: aliceblue;   
+ width:100px ; 
+ height: 50px;
+ border-radius: 5px;
+}
+.btn-2{
+    background-color:red;   
+ color: aliceblue;   
+ width:100px ; 
+ height: 50px;
+ border-radius: 5px;
+}
+.btn-3{
+    background-color:blue;   
+ color: aliceblue;   
+ width:100px ; 
+ height: 50px;
+ border-radius: 5px;
+}
+.comment{
+    color:brown;
+}
