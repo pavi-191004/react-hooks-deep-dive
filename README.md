@@ -1,4 +1,4 @@
-In above repositoty i have created six mini project with different hooks namely useState,useEffect,useReducer,useContext,useCallback,useRef.
+In above repository i have created six mini project with different hooks namely useState,useEffect,useReducer,useContext,useCallback,useRef.
 
 
 useState = Seat booking project
