@@ -5,7 +5,7 @@ import SeatBooking from "./components/useState/SeatBooking";
 import { LanguageProvider } from "./components/useContext/context/LanguageContext";
 import { MultilingualForm } from "./components/useContext/components/MultilingualForm";
 import { LanguageSwitcher } from "./components/useContext/components/LanguageSwitcher";
-import DisplayProduct from "./components/useCallback/displayProduct/DisplayProduct";
+import DisplayProduct from "./components/useCallback/DisplayProduct";
 function App() {
   return (
     <div className="App">
