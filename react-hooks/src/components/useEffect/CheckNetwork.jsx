@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./CheckNetwork.css";
 
 const CheckNetwork = () => {
-  const [isOnline, setOnline] = useState(navigator.onLine);
+  const [isOnline, setOnline] = useState(navigator?.onLine ?? true);
   const [showReconnected, setShowReconnected] = useState(false);
 
   useEffect(() => {
@@ -16,12 +16,12 @@ const CheckNetwork = () => {
       setShowReconnected(false);
     };
 
-    window.addEventListener("online", handleOnline);
-    window.addEventListener("offline", handleOffline);
+    window?.addEventListener?.("online", handleOnline);
+    window?.addEventListener?.("offline", handleOffline);
 
     return () => {
-      window.removeEventListener("online", handleOnline);
-      window.removeEventListener("offline", handleOffline);
+      window?.removeEventListener?.("online", handleOnline);
+      window?.removeEventListener?.("offline", handleOffline);
     };
   }, []);
 
@@ -30,7 +30,8 @@ const CheckNetwork = () => {
     if (showReconnected) {
       timer = setTimeout(() => setShowReconnected(false), 8000);
     }
-    return () => clearTimeout(timer);
+
+    return () => clearTimeout(timer ?? null);
   }, [showReconnected]);
 
   return (
@@ -42,7 +43,7 @@ const CheckNetwork = () => {
           isOnline ? "status-online" : "status-offline"
         }`}
       >
-        {isOnline ? " Online" : " Offline"}
+        {isOnline ? "Online" : "Offline"}
       </div>
 
       {showReconnected && isOnline && (
